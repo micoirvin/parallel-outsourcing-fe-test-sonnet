@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sonnet Front-End Code Test</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <img src="./assets/branding/sonnet-logo-white.png" alt="Sonnet logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h1 class="not-bold">
+                    Products
+                </h1>
+                <div class="filters">
+                    <span class="filter-description" id="filter-description">
+                        X results
+                    </span>
+                    <form action="" id="filter-form">
+                        <div class="filter-form">
+                            <div class="form-item w-l">
+                                <select name="" id="sort-select">
+                                    <option value="label" selected>Sort by</option>
+                                    <option value="name-inc">A-Z</option>
+                                    <option value="name-dec">Z-A</option>
+                                    <option value="price-inc">Increasing price</option>
+                                    <option value="price-dec">Decreasing price</option>
+                                </select>
+                            </div>
+                            <div class="form-item w-m">
+                                <select name="" id="size-select">
+                                    <option value="label">Filter by size</option>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="gallery" id="gallery">
+                <!-- <div class="gallery-item">
+                    <div class="gallery-item-image">
+                        <img src="./assets/products/denim_wash_shirt.jpg" alt="">
+                    </div>
+                    <h3 class="gallery-item-name">
+                        Sample
+                    </h3>
+                    <span class="gallery-item-price">
+                        $ 30.00
+                    </span>
+                </div> -->
+            </section>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
