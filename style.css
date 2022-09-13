@@ -17,12 +17,10 @@ header {
     min-height: 134px;
     display: flex;
     align-items: center;
-    /* background-color: orange; */
 }
 
 .logo {
     width: 230px;
-    /* background-color: blue; */
 }
 
 .container {
@@ -79,7 +77,6 @@ form * {
     width: 190px
 }
 
-
 .gallery {
     background-color: #d5d5d9;
     padding: 24px 30px 60px;
@@ -105,7 +102,6 @@ form * {
 }
 
 .gallery-item-image {
-    /* background-color: orange; */
     overflow: hidden;
     margin-bottom: 32px;
     display: flex;
@@ -119,13 +115,11 @@ form * {
 
 .gallery-item-name {
     margin-top: auto;
-    /* justify-self: end; */
     color: #012639;
     margin-bottom: 4px;
 }
 
 .gallery-item-price {
     color: #F7CF7A;
-    /* justify-self: end; */
 }
 
